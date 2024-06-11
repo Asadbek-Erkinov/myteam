@@ -1,4 +1,4 @@
-*, *::after,
+*, x*::after,
 *::before {
   box-sizing: border-box;
 }
@@ -21,7 +21,6 @@
 
 body {
   margin: 0;
-  background-color: #014E56;
   font-family: "Livvic", "Arial", sans-serif;
 }
 
@@ -37,7 +36,8 @@ img {
 }
 
 .site-header {
-  margin-top: 72px;
+  background-color: #014E56;
+  padding-top: 72px;
 }
 
 .header-inner {
@@ -110,7 +110,9 @@ img {
   top: 195px;
 }
 
-
+.hero {
+  background-color: #014E56;
+}
 
 .hero-text {
   color: #fff;
