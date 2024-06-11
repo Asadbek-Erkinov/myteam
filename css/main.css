@@ -1,3 +1,9 @@
+*, 
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: "Livvic";
   font-weight: bold;
@@ -12,11 +18,6 @@
   font-style: normal;
   src: url("/fonts/Livvic/livvicsemibold.woff2") format("woff2"),
   url("/fonts/Livvic/livvicsemibold.woff") format("woff");
-}
-
-
-* {
-  box-sizing: border-box;
 }
 
 body {
