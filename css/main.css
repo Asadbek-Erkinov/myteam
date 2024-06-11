@@ -1,3 +1,20 @@
+@font-face {
+  font-family: "Livvic";
+  font-weight: bold;
+  font-display: swap;
+  src: url("/fonts/Livvic/livvicbold.woff2") format("woff2"),
+  url("/fonts/Livvic/livvicbold.woff") format("woff");
+}
+
+@font-face { 
+  font-family: "Livvic";
+  font-weight: 600;
+  font-style: normal;
+  src: url("/fonts/Livvic/livvicsemibold.woff2") format("woff2"),
+  url("/fonts/Livvic/livvicsemibold.woff") format("woff");
+}
+
+
 * {
   box-sizing: border-box;
 }
@@ -5,6 +22,7 @@
 body {
   margin: 0;
   background-color: #014E56;
+  font-family: "Livvic", "Arial", sans-serif;
 }
 
 img {
