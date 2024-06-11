@@ -240,7 +240,7 @@ img {
 
 .manage-list::after {
   position: absolute;
-  right: -204.5px;
+  right: -304.5px;
   bottom: -140px;
   content: "";
   width: 200px;
