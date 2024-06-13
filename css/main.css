@@ -472,3 +472,131 @@ img {
 .delivery {
   background-color: #004047;
 }
+
+/* Start Director section style */
+
+.director {
+  position: relative;
+  padding-block: 140px;
+  background-color: #004047;
+}
+
+.director-title-wrapper {
+  width: 920px;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.director-title-wrapper::before {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 860px);
+  content: "";
+  width: 200px;
+  height: 200px;
+  background-image: url("../images/aboutbg.svg");
+  background-repeat: no-repeat;
+}
+
+.director-title-wrapper::after {
+  position: absolute;
+  right: calc(50% - 760px);
+  bottom: 0;
+  content: "";
+  width: 147px;
+  height: 100px;
+  background-image: url("../images/abbg.svg");
+  background-repeat: no-repeat;
+}
+
+.director-title {
+  margin: 0 0 64px;
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 48px;
+}
+
+.director-list {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 76px 30px;
+}
+
+.director-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  padding: 32px 24px 63px;
+  background-color: #012f34;
+}
+
+.director-item::before {
+  position: absolute;
+  bottom: -28px;
+  content: "";
+  width: 56px;
+  height: 56px;
+  background-color: #f67e7e;
+  background-image: url("../images/plusicon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.x-item::before {
+  position: absolute;
+  bottom: -28px;
+  content: "";
+  width: 56px;
+  height: 56px;
+  background-color: #79c8c7;
+  background-image: url("../images/xicon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.director-img {
+  margin-bottom: 16px;
+}
+
+.director-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #79c8c7;
+  line-height: 28px;
+}
+
+.director-position {
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 25px;
+}
+
+.director-quote-wrapper {
+  width: 245px;
+  margin-block: 8px 24px;
+}
+
+.director-quote {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 25px;
+  text-align: center;
+}
+
+.director-social-list {
+  display: flex;
+  align-items: center;
+}
+
+.director-social-item:not(:last-child) {
+  margin-right: 16px;
+}
